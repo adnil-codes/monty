@@ -1,0 +1,7 @@
+# Steps to be taken in the project
+#1/. Open the Bytecode file
+#2. Loop through the code line by line 
+#3. check out the OP_CODE
+#4. Extract the OP_CDE ARG (ARguement)
+#5. find the OP_CODE function
+#6. call the OP_CODE function
