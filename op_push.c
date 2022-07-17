@@ -4,6 +4,7 @@
 
 void op_push(stack_t **stack, unsigned int line_number, char *arg)
 {
+    
     if (!is_numeric(arg))
     {
         free_stack(stack);
