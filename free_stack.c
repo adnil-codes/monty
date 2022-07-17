@@ -10,6 +10,6 @@ void free_stack(stack_t **stack)
     {
         freed_item = *stack;
         *stack = (*stack)->next;
-        free(freed_item)
+        free(freed_item);
     }
 }

@@ -5,7 +5,7 @@ stack_t *pop(stack_t **stack)
 {
     stack_t *old_top_item = *stack;
 
-    if (old_top_item !- NULL)
+    if (old_top_item != NULL)
     {
         *stack = old_top_item->next;
         old_top_item->next = NULL;

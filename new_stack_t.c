@@ -8,7 +8,7 @@ stack_t *new_stack_t(int n)
 
     if (new_item == NULL)
     {
-        fprint(stderr, "Error: malloc failed\n");
+        fprintf(stderr, "Error: malloc failed\n");
         exit(EXIT_FAILURE);
     }
 
