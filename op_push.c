@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void op_push(stack_t **stack, unsigned int line_number, char *arg)
+void op_push(stack_t1 **stack, unsigned int line_number, char *arg)
 {
     
     if (!is_numeric(arg))

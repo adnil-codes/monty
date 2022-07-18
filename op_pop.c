@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void op_pop(stack_t **stack, unsigned int line_number)
+void op_pop(stack_t1 **stack, unsigned int line_number)
 {
-    stack_t *popped = pop(stack);
+    stack_t1 *popped = pop(stack);
     if (popped == NULL)
     {
         free_stack(stack);

@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void op_pint(stack_t **stack, unsigned int line_number)
+void op_pint(stack_t1 **stack, unsigned int line_number)
 {
 
     if ((*stack) == NULL)

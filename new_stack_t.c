@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-stack_t *new_stack_t(int n)
+stack_t1 *new_stack_t(int n)
 {
-    stack_t *new_item = malloc(sizeof(stack_t));
+    stack_t1 *new_item = malloc(sizeof(stack_t1));
 
     if (new_item == NULL)
     {

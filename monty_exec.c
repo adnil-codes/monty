@@ -11,8 +11,8 @@ void monty_exec(FILE *fp)
     ssize_t len;
     char *op_code = NULL, *op_code_arg = NULL;
     unsigned int line_number = 0;
-    stack_t *stack = NULL;
-    void (*op_code_handler)(stack_t **, unsigned int);
+    stack_t1 *stack = NULL;
+    void (*op_code_handler)(stack_t1 **, unsigned int);
 
     /*to read a line in OP_CODE*/
     while ((len = getline(&line, &line_size, fp)) != -1)

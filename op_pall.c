@@ -1,9 +1,9 @@
 #include "monty.h"
 #include <stdio.h>
 
-void op_pall(stack_t **stack, unsigned int line_number)
+void op_pall(stack_t1 **stack, unsigned int line_number)
 {
-    stack_t *cursor = *stack;
+    stack_t1 *cursor = *stack;
 
     (void) line_number;
 

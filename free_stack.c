@@ -2,9 +2,9 @@
 #include <stddef.h>
 #include <stdlib.h>
 
-void free_stack(stack_t **stack)
+void free_stack(stack_t1 **stack)
 {
-    stack_t *freed_item = NULL;
+    stack_t1 *freed_item = NULL;
 
     while (*stack)
     {
