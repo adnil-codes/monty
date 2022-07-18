@@ -1,6 +1,7 @@
 #include "monty.h"
-#include "stdlib.h"
-#include "stdio.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <signal.h>
 
 int main(int argc, char **argv)
 {
@@ -19,7 +20,7 @@ int main(int argc, char **argv)
     /*Cannot open the file*/
     if (fp == NULL)
     {
-        fprintf(stderr, "Error: Can't open file %s\n, argv[1]");
+        fprintf(stderr, "Error: Can't open file %s\n", argv[1]);
         exit(EXIT_FAILURE);
     }
 
